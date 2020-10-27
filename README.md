@@ -38,17 +38,17 @@ For deployment.
 pip install -r requirements.txt
 ```
 
-## Run server api localy
+## Run web server localy
 Development server
 ```bash
-python api/app.py --debug
+python web/app.py --debug
 ```
 Open browser at the address shown.
 The `debug` options force the server automatically reload the app if any sources are changed.
 
 Alternatively run via gunicorn (as it run on Heroku)
 ```bash
-cd api
+cd web
 gunicorn --bind 0.0.0.0:5000 app:app
 ```
 ## Docker
