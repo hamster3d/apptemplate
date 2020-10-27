@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# Allow files and directories
+# Add your own directories that you want to include into docker image
+# !/ ...your directory ... /**
+!/app/**
+!/requirements.txt
+
+# Ignore unnecessary files inside allowed directories
+# This should go after the allowed directories
+# Example: ignore deep learning weights
+*/*/models/*
+
+# Ignore generated files
+**/__pycache__
+**/*.pyc
