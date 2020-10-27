@@ -10,11 +10,11 @@ Features:
 If you need some environment variables set, use `.env` file.
 For example ifwe are going to use AWS S3.
 Create `.env` file with the following contents:
-    ```
-    AWS_ACCESS_KEY_ID=
-    AWS_SECRET_ACCESS_KEY=
-    S3_BUCKET="autocrop"
-    ```
+```
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+S3_BUCKET=
+```
 ## Installation
 
 It is always a good idea to create a virtual environment
